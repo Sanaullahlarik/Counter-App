@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+h1 {
+  color: #333;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#incrementBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+#decrementBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.reset-btn {
+  background-color: #007bff;
+  color: white;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#count {
+  font-size: 24px;
+  margin: 0 15px;
+  color: #333;
+}
